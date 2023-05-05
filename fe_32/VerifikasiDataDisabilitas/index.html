@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASEAN Youth Organization</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class='nav'>
+        <a class="n-a-1" href="#"> <img src="img/logoAYO.png" height="50" alt=""></a>
+    </div>
+    <div class="blue-box">
+        <h1>Data Diri</h1>
+        
+      </div>
+      <section>
+      <div class="container">
+        <ul class="progressbar">
+          <li class="active">Verifikasi Nomor Telepon</li>
+          <li>Lengkapi Data Diri</li>
+          <li>Selesai</li>
+        </ul>
+      </div>
+      <div class="avatar-upload">
+        <div class="avatar-edit">
+            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+            <label for="imageUpload"></label>
+        </div>
+        <div class="avatar-preview">
+            <div id="imagePreview" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqsb6lK-PlD1kHFoubbiC-jN21tqj9ADz9crJ2rBIstz1gKFPE&usqp=CAU);">
+            </div>
+            <p>Unggah foto formal</p>  
+            </div>
+            </div>
+          
+            <form action="#" class="form" name="form" onsubmit="event.preventDefault();">
+                <label class="form_label">Nama Lengkap *</label>
+                <br/>
+                <input class="form_input" type="text" Name="Name" placeholder="Nama lengkap sesuai KTP" autocomplete="on" required>
+                <br/>
+                <label class="form_label">NIK</label>
+                <br/>
+                <input class="form_input" type="text" Name="Lastname" autocomplete="on" placeholder="Masukan NIK sesuai KTP">
+            <div class="file-upload">
+                <label class="form_label">Unggah Surat Keterangan Disabilitas</label>
+                <div class="file-select">
+                  <div class="file-select-button" id="fileName">Choose File</div>
+                  <div class="file-select-name" id="noFile">No file chosen...</div> 
+                  <input type="file" name="chooseFile" id="chooseFile">
+                </div>
+              </div>
+              <div class="double-input">
+                <div class="form-input-container">
+                    <label class="form_label">Kode/Tipe Disabilitas</label>
+                    <select name="hotelcity" id="hotelcity">
+                        <option value="Wroclaw">A untuk Penyandang Disabilitas Fisik</option>
+                        <option value="Warsaw">B untuk Penyandang Disabilitas Intelektual</option>
+                        <option value="Plock">C untuk Penyandang Disabilitas Mental</option>
+                        <option value="Krakow">D untuk Penyandang Disabilitas Sensorik</option>
+                    </select>
+                </div>
+                </div> 
+                <label class="form_label">Email *</label>
+                <br/>
+                <input class="form_input" type="email" Name="email" autocomplete="on" placeholder="email@gmail.com" required>
+                <br/>
+                <label class="form_label">Date of Birth *</label>
+                <br/>
+                <div class="form_dob_container">
+                  <div class="form_dob_container--item">
+                    <label class="form_label form_label--alt" for="day">Day</label>
+                    <br/>
+                    <input class="form_input form_input--dob" type="number" Name="day" max="31" min="1" placeholder="29" required>
+                  </div>
+                  <div class="form_dob_container--item">
+                    <label class="form_label form_label--alt" for="month">Month</label>
+                    <br/>
+                    <input class="form_input form_input--dob" type="number" Name="month" min="1" max="12" placeholder="2" required>
+                  </div>
+                  <div class="form_dob_container--item">
+                    <label class="form_label form_label--alt" for="year">Year</label>
+                    <br/>
+                    <input class="form_input form_input--dob" type="number" Name="year" min="1900" max="2020" placeholder="1980" required>
+                  </div>
+                </div>
+                <label class="form_label" for="Gender">Gender *</label>
+                <div>
+                  <input class="form_input--radio" type="radio" id="female" name="gender" value="Female" required>
+                  <label class="form_label form_label--alt form_label--radio" for="female">Female</label>
+                  <br/>
+                  <input class="form_input--radio" type="radio" id="male" name="gender" value="Male" required>
+                  <label class="form_label form_label--alt form_label--radio" for="male">Male</label>
+                </div>
+                <input class="form_input_submit" type="submit" value="Simpan">
+                <br/>
+                    <small>* indicates required</small>
+                     <div class="popup">
+                    <h1>Thank you for your submission</h1>
+                    <p>We promise to keep your data safe & secure, please check you inbox for the confirmation email that contains all your submitted data, Thank you.</p>
+                    <button class="form_input_submit close">Close</button>
+            </div>
+        </form>
+      </section>
+            
+
+</body>
+</html>
