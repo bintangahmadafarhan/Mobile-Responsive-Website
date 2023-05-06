@@ -1,0 +1,102 @@
+*{
+  font-family: "poppins";
+}
+
+
+/* Heading */
+.head {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+/* End Heading */
+
+/* Konten */
+figure {
+  border: 1px solid #000000;
+  background-color: #bdbdbd;
+  border-radius: 50px;
+  padding: 40px;
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+  display: inline-block;
+}
+
+img {
+  float:left;
+  margin: 10px 10px 10px 10px;
+  width: 350px;
+  height:auto;
+  border-radius: 20%;
+}
+
+figcaption {
+  overflow: hidden;
+  padding-left: 90px;
+  
+}
+/* Style untuk tombol "Lihat Detail" */
+.lihat1 {
+  border: 0;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+  height: auto;
+}
+
+/* Efek saat tombol diarahkan */
+.lihat:hover {
+  background-color: rgb(0, 140, 255);
+  color: white;
+}
+
+/* Efek saat tombol diklik */
+.lihat:active {
+  background-color: #008CBA;
+  transform: translateY(2px);
+}
+.lihat2 {
+  border: 0;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+  height: auto;
+}
+
+.lihat3 {
+  border: 0;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+  height: auto;
+}
+
+
+/* End Konten */

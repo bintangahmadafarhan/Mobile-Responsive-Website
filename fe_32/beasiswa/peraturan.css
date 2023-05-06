@@ -1,0 +1,94 @@
+/* Tambahkan kode CSS kalian di file ini */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #333;
+    height: 50px;
+    justify-content: flex-end;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  li {
+    height: 100%;
+  }
+  
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    height: 100%;
+    padding: 0 20px;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
+  li.profile {
+    display: flex;
+    align-items: center;
+  }
+/* END NAVBAR */
+
+/* Peraturan */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color: rgb(224, 224, 224);
+    border-radius: 70px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+  }
+  
+  figure {
+    margin: 50px;
+    text-align: center;
+  }
+  
+  img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+  
+  }
+  
+  figcaption {
+    margin-top: 5px;
+    font-style: normal;
+    font-size: medium;
+    text-align: center;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  h1{
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  p{
+    font-size: large;
+  }
+/* End Peraturan */

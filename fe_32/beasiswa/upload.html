@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="upload.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <title>Upload Dokumen</title>
+
+</head>
+<body>
+    <!-- Tambahkan kode kalian di sini -->
+    <div class="form-wrapper">
+      <form>
+        <div class="form-row">
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+    
+        <div class="form-row">
+          <label for="ktp">Nomor KTP:</label>
+          <input type="text" id="ktp" name="ktp" required>
+        </div>
+    
+        <div class="form-row">
+          <label for="phone">Nomor HP:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+    
+        <div class="form-row">
+          <label for="gender">Jenis Kelamin:</label>
+          <select id="gender" name="gender">
+            <option value="male">Laki-laki</option>
+            <option value="female">Perempuan</option>
+          </select>
+        </div>
+      </form>
+    
+      <form>
+        <div class="form-row">
+          <label for="terms">Saya menyetujui syarat dan ketentuan.</label>
+          <input type="checkbox" id="terms" name="terms" required>
+        </div>
+    
+        <div class="form-row">
+          <label for="document">Dokumen:</label>
+          <input type="file" id="document" name="document" accept=".pdf,.doc,.docx">
+        </div>
+    
+        <div class="form-row">
+          <button type="submit" id="submit-btn">Kirim</button>
+        </div>
+      </form>
+    </div>
+    <script src="upload.js"></script>
+</body>
+</html>
