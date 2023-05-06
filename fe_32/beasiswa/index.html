@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="cotn_principal">
+      <div class="cont_centrar">
+        <div class="cont_login">
+          <div class="cont_info_log_sign_up">
+            <div class="col_md_login">
+              <div class="cont_ba_opcitiy">
+                <h2>LOGIN</h2>
+                <p>Together, We Share Our Future!</p>
+                <button class="btn_login" onclick="change_to_login()">
+                  LOGIN
+                </button>
+              </div>
+            </div>
+            <div class="col_md_sign_up">
+              <div class="cont_ba_opcitiy">
+                <h2>SIGN UP</h2>
+
+                <p>Don’t have an account?</p>
+
+                <button class="btn_sign_up" onclick="change_to_sign_up()">
+                  SIGN UP
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="cont_back_info">
+            <div class="cont_img_back_grey">
+              <img src="img/ayo2.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="cont_forms">
+            <div class="cont_img_back_">
+              <img src="img/ayo5.jpg" alt="" />
+            </div>
+            <div class="cont_form_login">
+              <a href="#" onclick="hidden_login_and_sign_up()"
+                ><i class="material-icons">&#xE5C4;</i></a
+              >
+              <h2>LOGIN</h2>
+              <input type="text" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <button class="btn_login" onclick="change_to_login()">
+                LOGIN
+              </button>
+            </div>
+
+            <div class="cont_form_sign_up">
+              <a href="#" onclick="hidden_login_and_sign_up()"
+                ><i class="material-icons">&#xE5C4;</i></a
+              >
+              <h2>SIGN UP</h2>
+              <input type="text" placeholder="Email" />
+              <input type="text" placeholder="User" />
+              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Confirm Password" />
+              <button class="btn_sign_up" onclick="change_to_light()">
+                SIGN UP
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="theme">LIGHT</button>
+    <form class="verification">
+      <section class="verification__wrap">
+        <header class="verification__header">
+          <h2 class="verification__title">Verification Code</h2>
+          <p class="verification__description">
+            we was send 4 length verification code, enter it on blow entery
+          </p>
+        </header>
+
+        <section class="verification__fields">
+          <fieldset class="verification__field">
+            <legend></legend>
+
+            <input
+              type="text"
+              class="verification__input verification__input--1"
+              id="verification-input-1"
+              placeholder="-"
+              maxlength="1"
+            />
+            <input
+              type="text"
+              class="verification__input verification__input--2"
+              id="verification-input-2"
+              placeholder="-"
+              maxlength="1"
+            />
+            <input
+              type="text"
+              class="verification__input verification__input--3"
+              id="verification-input-3"
+              placeholder="-"
+              maxlength="1"
+            />
+            <input
+              type="text"
+              class="verification__input verification__input--4"
+              id="verification-input-4"
+              placeholder="-"
+              maxlength="1"
+            />
+          </fieldset>
+        </section>
+
+        <section class="verification__verify">
+          <p>
+            <button type="button" class="verification__verify_btn">
+              VERIFY
+            </button>
+          </p>
+        </section>
+
+        <section class="verification__timeout">
+          <p>
+            wait <strong class="verification__counter">00 : 00</strong> seconds
+            to
+            <button type="button" class="verification__send_new">
+              send new code
+            </button>
+          </p>
+        </section>
+      </section>
+    </form>
+  </body>
+</html>
